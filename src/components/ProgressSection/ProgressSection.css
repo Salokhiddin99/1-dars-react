@@ -1,0 +1,7 @@
+.progress{
+    padding: 100px 0;
+}
+.progress__container{
+    display: flex;
+    justify-content: space-around;
+}

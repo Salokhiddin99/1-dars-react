@@ -1,0 +1,15 @@
+.progress-wrapper{
+    display: flex;
+}
+.progress-info{
+    margin-left: 16px;
+}
+.progress-info__title{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 64px;
+    color: #212121;
+}
+.progress-info__text{
+    color: #949494;
+}

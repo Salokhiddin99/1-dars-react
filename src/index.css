@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Basic:ital,wght@0,400;1,700&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Poppins', sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container {
+  width: 100%;
+  max-width: 1260px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+.section-title{
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 48px;
+  color: #212121;
+}
+.section-title--active{
+  color: #008F76;
+}
+.section-text{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+}
+.section-text--active{
+  font-weight: 700;
+  color: #212121;
+}

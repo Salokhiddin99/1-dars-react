@@ -1,0 +1,48 @@
+.works {
+    padding-bottom: 90px;
+}
+
+.work__inner {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+
+.works-card {
+    padding: 30px;
+    border-radius: 5px;
+    width: 381px;
+    height: 340px;
+    background-image: url("/public/images/books1.png");
+}
+
+.works-card:nth-child(2) {
+    background-image: url("/public/images/library.png");
+}
+
+.works-card:nth-child(3) {
+    background-image: url("/public/images/prise.png");
+}
+
+.works-card__year {
+    display: inline-block;
+    padding: 2px 8px;
+    color: #FFDD67;
+    background: rgba(148, 148, 148, 0.6);
+    border-radius: 6px;
+}
+
+.works-card__title {
+    color: #fff;
+}
+
+.works-card__text {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 28px;
+    color: #fff;
+}
+
+.works-card__info {
+    margin-top: 186px;
+}
